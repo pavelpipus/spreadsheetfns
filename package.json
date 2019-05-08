@@ -1,6 +1,6 @@
 {
     "name": "spreadsheetfns",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -8,11 +8,11 @@
         "build": "tsc",
         "lint": "tslint -p tsconfig.json",
         "postversion": "git push && git push --tags",
-        "prepare": "npm run build",
         "prepublishOnly": "npm run test && npm run lint",
         "preversion": "npm run lint",
         "test": "jest --config jestconfig.json",
-        "version": "git add --all"
+        "version": "git add --all",
+        "prepublish": "npm run build"
     },
     "author": "Pavel Pipus",
     "license": "ISC",
