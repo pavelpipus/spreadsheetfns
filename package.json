@@ -1,6 +1,6 @@
 {
     "name": "spreadsheetfns",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -16,6 +16,9 @@
     },
     "author": "Pavel Pipus",
     "license": "ISC",
+    "files": [
+        "dist"
+    ],
     "devDependencies": {
         "@types/jest": "^24.0.12",
         "jest": "^24.8.0",
