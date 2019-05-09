@@ -1,6 +1,6 @@
 import pv from "./pv";
 
 describe("pv", () => {
-    it("should", () => {
+    it("should calculate present value", () => {
     });
 });
